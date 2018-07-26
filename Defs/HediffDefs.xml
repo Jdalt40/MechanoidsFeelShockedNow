@@ -5,6 +5,11 @@
     <defName>MechanoidShock</defName>
     <label>short circuiting</label>
     <lethalSeverity>1</lethalSeverity>
+	<comps>
+	  <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-1</severityPerDay>
+      </li>
+	</comps>
     <stages>
       <li>
         <label>minor</label>
