@@ -24,21 +24,9 @@ namespace MFTSN
         }
         public void DoMechanoidDamage(Map map)
         {
-            List<Pawn> allPawnsSpawned = map.mapPawns.AllPawnsSpawned;
-            for (int i = 0; i < allPawnsSpawned.Count; i++)
-            {
-                Pawn pawn = allPawnsSpawned[i];
-                if (pawn.def.race.IsMechanoid)
-                {
-                    float num = 0.005f;
-                    if (num != 0f)
-                    {
-                        float num2 = Mathf.Lerp(0.85f, 1.15f, Rand.ValueSeeded(pawn.thingIDNumber ^ 74374237));
-                        num *= num2;
-                        HealthUtility.AdjustSeverity(pawn, MechanoidHediffDefOf.MechanoidShock, num);
-                    }
-                }
-            }
+            foreach (Pawn mechanoid in map.mapPawns.AllPawnsSpawned.Where(p => p.RaceProps.IsMechanoid))
+                HealthUtility.AdjustSeverity(mechanoid, HediffDef.Named("MechanoidShock"), 0.005f * Mathf.Lerp(0.85f, 1.15f, Rand.ValueSeeded(mechanoid.thingIDNumber ^ 74374237)));
+            //Code golf challenge between Mehni and Xeo, TDLR: Mehni Wins
         }
     }
 }
