@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+      <xpath>Defs/GameConditionDef[defName = "SolarFlare"]</xpath>
+      <value>
+        <conditionClass>MFTSN.GameCondition_SolarFlare</conditionClass>
+      </value>
+	</Operation>  
+</Patch>

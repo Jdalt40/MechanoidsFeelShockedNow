@@ -1,0 +1,6 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\MechanoidsFeelTheShockNow\Assemblies\MFTSN.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\MechanoidsFeelTheShockNow\Assemblies\MFTSN.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\MechanoidsFeelTheShockNow\Source\MFTSN\obj\Debug\MFTSN.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\MechanoidsFeelTheShockNow\Source\MFTSN\obj\Debug\MFTSN.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\MechanoidsFeelTheShockNow\Source\MFTSN\obj\Debug\MFTSN.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\MechanoidsFeelTheShockNow\Source\MFTSN\obj\Debug\MFTSN.pdb
